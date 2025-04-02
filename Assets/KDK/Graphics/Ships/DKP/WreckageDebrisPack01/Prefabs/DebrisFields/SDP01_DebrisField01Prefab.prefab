@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1148433187139458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4687367462176044}
+  - component: {fileID: 114955358366300072}
+  m_Layer: 0
+  m_Name: SDP01_DebrisField01Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687367462176044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148433187139458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4665354046482636}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114955358366300072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148433187139458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4434650eb5337704eae77e8dcd7f6c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RandomizeDebris: 0
+  DebrisFloats: 1
+  DriftSpeedMIN: -0.05
+  DriftSpeedMAX: 0.05
+  DriftRotateSpeedMIN: -1
+  DriftRotateSpeedMAX: 1
+  DebrisClusterPrefabs:
+  - {fileID: 1886080292555040, guid: eea867fcc2321d848a5e9e1a27abf46f, type: 3}
+  - {fileID: 1233450836952654, guid: a83c286def985a44393cf710d38d0eff, type: 3}
+  - {fileID: 1716537674469314, guid: a0ceffe7e27636b4fa84cdf2a909635e, type: 3}
+  - {fileID: 1161302441676008, guid: 7dd1f64d8ebc0cd43b8d96e3999d6451, type: 3}
+  - {fileID: 1255431480498740, guid: a9a070b9b7791bd4e9fa49610502c6e2, type: 3}
+  - {fileID: 1523470058634680, guid: fda94afb88c355c45b06d05a0a4080f1, type: 3}
+  - {fileID: 1088299777383536, guid: 9a47560936d83f14d978f09dd284778d, type: 3}
+  - {fileID: 1350150689784008, guid: 450b50ba4eb252640b5ecb42720f5318, type: 3}
+  - {fileID: 1210296594182188, guid: 5d18901d6f5ad2947a758f6a36e6d104, type: 3}
+  ClusterScatterDistanceMIN: 3.5
+  ClusterScatterDistanceMAX: 5.5
+  GenerateDebrisClouds: 1
+  NumberOfCloudsMIN: 1
+  NumberOfCloudsMAX: 8
+  DebrisCloudPrefabs:
+  - {fileID: 1269030201260468, guid: f297256cc14259f499a0734196013144, type: 3}
+  - {fileID: 1284265448906840, guid: 24cc88dcbef04954ea1d756ed7af91b5, type: 3}
+  - {fileID: 1227105800725262, guid: df391fb96d8a1d44aa8066a3aba970a2, type: 3}
+  - {fileID: 1227105800725262, guid: 70779d36ea716f847aadec61a80a89c3, type: 3}
+  - {fileID: 1209777484433466, guid: 50a91b9c4b7384948a22f76d160ebd25, type: 3}
+  - {fileID: 1223479497555304, guid: a77875904158c434782a45ae0d595efa, type: 3}
+  - {fileID: 1548849215262606, guid: 60f7551640a66e3459fe841e138da6cc, type: 3}
+  NumberOfClusters: 0
+  SpawnDebrisPieces: 1
+  NumberDebrisPiecesMIN: 5
+  NumberDebrisPiecesMAX: 15
+  PieceDistanceMIN: 8
+  PieceDistanceMAX: 20
+  PieceScaleMIN: 0.5
+  PieceScaleMAX: 1.5
+  DebrisPiecePrefabs:
+  - {fileID: 1320792355623456, guid: e616323719e63694594e5d3cdc46a5e0, type: 3}
+  - {fileID: 1272469914150542, guid: 9d6b9b6e9d7d7c54cb032ac56268ab05, type: 3}
+  - {fileID: 1764431603739298, guid: b21af1022a1307948b0fef627250fc22, type: 3}
+  - {fileID: 1938691448711302, guid: 335388e76ad063c4a8e06c726b657102, type: 3}
+  - {fileID: 1023693753966556, guid: adfe47f50814cce458cf0af925cf184c, type: 3}
+  - {fileID: 1932867671910936, guid: 295539c3a6d554346a7a0bb3cafba02f, type: 3}
+  - {fileID: 1976750938081996, guid: d610b87afc98cd046a1e45e78342797b, type: 3}
+  - {fileID: 1188989184855604, guid: 244981bbf568982429be29fdc5811059, type: 3}
+  - {fileID: 1788213003062164, guid: 08e893eecca93d24ab60c0fb9ceb7c61, type: 3}
+  - {fileID: 1567777635833844, guid: f7124ae3fd053cc4690b1f4115afa837, type: 3}
+  - {fileID: 1348830933692928, guid: e83842cd122d37c40aae194644a2b4eb, type: 3}
+  - {fileID: 1432668214655382, guid: fd95ba632a5c6e0448702833a1c548ac, type: 3}
+  - {fileID: 1060812980787276, guid: c4cd21fb24f75694ebeb01c80cd93fb9, type: 3}
+  - {fileID: 1565113874392352, guid: b709428bb77b2f84ab8b80c2c7b788b1, type: 3}
+  - {fileID: 1651932101602924, guid: f3958ad610395844b8892c70ce14e0ee, type: 3}
+  - {fileID: 1102608286478984, guid: 8a90d0bd634b38c4b96380937bc5bc51, type: 3}
+  - {fileID: 1499497265217298, guid: 0e781927b433e8c40993418f5483b693, type: 3}
+  - {fileID: 1940992275025878, guid: f93d2f0d998983d429596400da6ec9b3, type: 3}
+  - {fileID: 1309895026404624, guid: d5e5a8773da18fb4daf2bd10df69534c, type: 3}
+  - {fileID: 1197679311757984, guid: 3732ae90b0b7f4b408157d8cef853dc5, type: 3}
+  - {fileID: 1174695385645262, guid: bbe1e32ac33501a45b7aa08aa1cdbfd0, type: 3}
+  - {fileID: 1388801972327412, guid: 6f363a7d9dd45a844b760420e1f1e8bb, type: 3}
+  PiecePlacementTransform: {fileID: 4665354046482636}
+  DebrisPieceCount: 0
+  SpawnDebrisQuadPieces: 1
+  NumberDebrisQuadPiecesMIN: 4
+  NumberDebrisQuadPiecesMAX: 8
+  QuadPieceDistanceMIN: 8
+  QuadPieceDistanceMAX: 10
+  QuadPieceScaleMIN: 0.5
+  QuadPieceScaleMAX: 2
+  DebrisQuadPiecePrefabs:
+  - {fileID: 1535170207016742, guid: f430dffc40958d549b921d144742fc16, type: 3}
+  - {fileID: 1625570025642512, guid: ce8fc828be6a1954297b065c89911474, type: 3}
+  - {fileID: 1625570025642512, guid: f913530905769f341a6abdc329386df4, type: 3}
+  DebrisQuadPieceCount: 0
+--- !u!1 &1476188961258914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4665354046482636}
+  m_Layer: 0
+  m_Name: PiecePlacementTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4665354046482636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476188961258914}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4687367462176044}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
