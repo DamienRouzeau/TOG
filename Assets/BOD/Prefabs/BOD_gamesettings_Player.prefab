@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &797215748079605044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797215748079605045}
+  - component: {fileID: 797215748079605034}
+  m_Layer: 0
+  m_Name: BOD_gamesettings_Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797215748079605045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797215748079605044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &797215748079605034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797215748079605044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ebcf2ed0b226f4589596f12c51de8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piratenames:
+  - XavGrayBeard
+  - DonRafaeloLux
+  - ClaudeRedGems
+  - EvilSarah
+  - QuentinOfSea
+  - DevylOneEye
+  - TiPonsieloRrr
+  - FearNoGold
+  deathprefabnames:
+  - death
+  - death
+  - death
+  - death
+  - death
+  - death
+  pirateSkin:
+  - {fileID: 607384626934954054, guid: 4b97fe77df54b28478a008a7307f60df, type: 3}
+  - {fileID: 607384626934954054, guid: 74c4003a9a013fa47ad73ca74b869d90, type: 3}
+  - {fileID: 8638612695382322367, guid: d969c102c19eb354b8d4bea5906ec96e, type: 3}
+  - {fileID: 5996708735233455175, guid: 1b75f31a04202e542afa42bfd28e8ed3, type: 3}
+  - {fileID: 7523075124422036922, guid: 89a3991af3a9e014f9fc252f357e701f, type: 3}
+  - {fileID: 611417705864216169, guid: f62d8ca1303828441b1c71239f2998b5, type: 3}
+  playerPrefab: {fileID: 4812631708427302708, guid: e17bcae3c65a76d498a89852af553fdd,
+    type: 3}
+  avatarPrefab: {fileID: 4211374401472323433, guid: 4fa4d93c49c2acf428d02df92af1baf1,
+    type: 3}
+  uiFeedbackPrefab: {fileID: 7470986222724082341, guid: 48bb6957562aec7448a0ee0aa190007c,
+    type: 3}
+  trailMinDistanceFromCannon: 0.2
+  trailMinDistanceToShow: 0.1
+  trailMaxLength: 10
+  _pirateSkinNormalHeightsOfEyes:
+  - 1.6
+  - 1.6
+  - 1.5
+  - 1.5
+  - 1.4
+  - 1.4
+  _pirateSkinMinScales:
+  - 0.98
+  - 0.98
+  - 0.98
+  - 0.98
+  - 0.98
+  - 0.98
+  _pirateSkinMaxScales:
+  - 1.02
+  - 1.02
+  - 1.02
+  - 1.02
+  - 1.02
+  - 1.02
+  _pirateSkinMinHeight:
+  - 1.5
+  - 1.5
+  - 1.4
+  - 1.4
+  - 1.3
+  - 1.3
+  _pirateSkinMaxHeight:
+  - 1.7
+  - 1.7
+  - 1.6
+  - 1.6
+  - 1.5
+  - 1.5
+  attachItemBottomAngleMax: 30
+  canKill: 1
+  rotationWithStickEnable: 0
+  rotationWithStickThreshold: 0.8
+  rotationWithStickDelay: 0.1
+  teleportWithStickEnable: 1
+  teleportWithTouchEnable: 1

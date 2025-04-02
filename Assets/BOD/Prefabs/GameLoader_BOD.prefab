@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3629320238461059579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5499691751348360735}
+  - component: {fileID: 8491533778454149990}
+  m_Layer: 0
+  m_Name: GameLoader_BOD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5499691751348360735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629320238461059579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8491533778454149990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629320238461059579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c027c1db55834f47a083cb603a890c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveManagerPrefab: {fileID: 196643291992052037, guid: 207333135e0858c47ba82e74f1b15182,
+    type: 3}
+  eventSystemPrefab: {fileID: 4245767468995187114, guid: 0d05d1d54975959428006e769d03e32a,
+    type: 3}
+  gameSettingsGeneralPrefab: {fileID: 5704196432299080861, guid: cba07ad93ee4a3645b7c9359ee42fdc5,
+    type: 3}
+  gameSettingsUiPrefab: {fileID: 7260198854254096214, guid: ea7e5eacc2a18a443a97b2f272d085ad,
+    type: 3}
+  gameSettingsPlayerPrefab: {fileID: 797215748079605034, guid: dca6390c3d47acc45a64f8a9468d3688,
+    type: 3}
+  gameSettingsSceenPrefab: {fileID: 3967707641666168007, guid: 2a571728037dae04b99930cb9fb382df,
+    type: 3}
+  gameSettingsDifficultyPrefab: {fileID: 7104440846748684112, guid: 91a452f7fe7f4fb4399123aab82a0179,
+    type: 3}
+  gameSettingsEndScreenPrefab: {fileID: 8058585706332876612, guid: 065ff46efb527ac44b096f4419ef1070,
+    type: 3}
+  gameSettingsBoatPrefab: {fileID: 7815449399322291550, guid: 10599f6e41891fe428b280c929bb254c,
+    type: 3}
+  gameSettingsRacePrefab: {fileID: 660468963130228170, guid: 062a32a963380a74c882dc21e85ba47f,
+    type: 3}
+  gamesettingsCoefsPrefabs:
+    m_internalArray:
+    - {fileID: 1806180710710792385, guid: e8f5feccb34f403428e04a41a70ecbbe, type: 3}
+    - {fileID: 631253512924052439, guid: 71ecad88b1b8e4247ae48d9049fd0c46, type: 3}
+    m_enumNames:
+    - Arcade
+    - Standalone
+  poolHelperPrefab: {fileID: 4463474231789104148, guid: ef59de40a5a0488458327f4552a0c95f,
+    type: 3}
+  multiplayerPrefab: {fileID: 8064670214969823230, guid: 676376a8b5c3230429042f815d6dda27,
+    type: 3}
+  cheatCodeManagerPrefab: {fileID: 3608850257368179585, guid: 700e72c84ad1e5c42a0e787943ac1afc,
+    type: 3}
+  playMakerGuiPrefab: {fileID: 248937943878134656, guid: ecffa00ff1454f04485a9233d9b9c0ad,
+    type: 3}
+  voiceManagerPrefab: {fileID: 820445994006312094, guid: cc2b9f84f04070441acc55fd0b9f8797,
+    type: 3}
+  avatarRootPrefab: {fileID: 5099960692508909205, guid: 8b45f8b9cde92cb4e9b6b4ee7d62d3fe,
+    type: 3}
+  launchScenePrefab: {fileID: 843859349900275548, guid: e2134220b278c3f458c90fa615f80fe5,
+    type: 3}
+  synthesisPrefab: {fileID: 7446585815704091044, guid: df37942b180f1994cb50bd8491569d8c,
+    type: 3}
+  teamColor: 0
+  useGhostBoat: 0
+  multiplayerUseLauncher: 0
+  multiplayerRoomName: TestRoomNameBODXB2k2
+  multiplayerRegion: eu
+  forcedAudioLanguage: 0
+  forcedWrittenLanguage: 0
+  license_overridemachineid: 
+  machineName: 
+  startingLevel: 1
+  startingWave: 1
+  editorArcadeCode: 
+  useVoip: 1
+  licencePrefab: {fileID: 9143468130093226837, guid: 6c8436092ca4eef4686273ee9040ebfb,
+    type: 3}
+  useLiveServer: 0
+  endlessModeDurationInMin: 53
+  gameMode: 1
+  theme: 0
+  isBotScene: 0
+  simulateLocalBots: 0
+  localBotCount: 15
+  localBotsOnSameBoat: 0

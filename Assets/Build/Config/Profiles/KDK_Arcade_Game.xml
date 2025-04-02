@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BUILDERPROFILE>
+	<!-- Platform & Product & Version -->
+	<PLATFORM value="StandaloneWindows64" />
+	<PRODUCT_NAME value="Kaireyhs" />
+	<PROJECT_VERSION value="1.9.9" />
+	<!-- Global Defines -->
+	<GLOBALDEFINES>
+		<GLOBALDEFINE value="STEAM_PRESENT" />
+		<GLOBALDEFINE value="CROSS_PLATFORM_INPUT" />
+		<GLOBALDEFINE value="MIRROR" />
+		<GLOBALDEFINE value="MIRROR_1726_OR_NEWER" />
+		<GLOBALDEFINE value="MIRROR_3_0_OR_NEWER" />
+		<GLOBALDEFINE value="UNITY_POST_PROCESSING_STACK_V2" />
+		<GLOBALDEFINE value="PLAYMAKER" />
+		<GLOBALDEFINE value="PLAYMAKER_1_9" />
+		<GLOBALDEFINE value="PLAYMAKER_1_9_0" />
+		<GLOBALDEFINE value="PLAYMAKER_1_8_OR_NEWER" />
+		<GLOBALDEFINE value="PLAYMAKER_1_8_5_OR_NEWER" />
+		<GLOBALDEFINE value="PLAYMAKER_1_9_OR_NEWER" />
+		<GLOBALDEFINE value="PHOTON_UNITY_NETWORKING" />
+		<GLOBALDEFINE value="PUN_2_0_OR_NEWER" />
+		<GLOBALDEFINE value="PUN_2_OR_NEWER" />
+		<GLOBALDEFINE value="AMPLIFY_SHADER_EDITOR" />
+		<GLOBALDEFINE value="SCPE_STEAM_2_STEAM_2_STEAM_2" />
+		<GLOBALDEFINE value="AURA_IN_PROJECT" />
+		<GLOBALDEFINE value="TERRAINPACKAGE_EXIST" />
+		<GLOBALDEFINE value="DREAMTECK_SPLINES_STEAM_2" />
+		<GLOBALDEFINE value="OPT_TAILANIMATOR_IMPORTED" />
+		<GLOBALDEFINE value="UIKIT_VIVE_STEAM_2" />
+		<GLOBALDEFINE value="UNITY_CCU" />
+		<GLOBALDEFINE value="CURVEDUI_STEAMVR_INT" />
+		<GLOBALDEFINE value="CURVEDUI_TMP" />
+		<GLOBALDEFINE value="CURVEDUI_STEAMVR_2" />
+		<GLOBALDEFINE value="PUN_2_19_OR_NEWER" />
+		<GLOBALDEFINE value="USE_KDK" />
+	</GLOBALDEFINES>
+	<!-- Plugins -->
+	<!-- Scripting & Stripping -->
+	<SCRIPTING backend="Mono2x" apiCompatibilityLevel="NET_Standard_2_0" compilerConfig="Release" stripEngineCode="false" managedStrippingLevel="Low" vrSdk="OpenVR" />
+	<!-- Standalone specific part -->
+	<FULLSCREEN_MODE value="FullScreenWindow" />
+	<DEFAULT_SCREEN_WIDTH value="720" />
+	<DEFAULT_SCREEN_HEIGHT value="480" />
+	<!-- Languages -->
+	<LANGUAGES>
+		<LANGUAGE value="fr-FR" />
+		<LANGUAGE value="en-US" />
+		<LANGUAGE value="es-ES" />
+		<LANGUAGE value="de-DE" />
+	</LANGUAGES>
+	<!-- Icons & Splashscreens -->
+	<ICON_PATH value="Assets/KDK/Graphics/UI/Kaireyhs_GameIcon.png" />
+	<SPLASHS_FOLDER useSplashSystem="true" useUnitySplash="false" splashPath="" value="Assets/KDK/Graphics/UI/Kaireyhs_GameIcon.png" backgroundcolor="#222C36" />
+	<!-- Scenes -->
+	<SCENES>
+		<SCENE path="Assets/KDK/Scenes/KDK_PlayersCabin.unity" />
+		<SCENE path="Assets/KDK/Scenes/KDK_TowerDefense_Portal.unity" />
+		<SCENE path="Assets/KDK/Scenes/KDK_TowerDefense_Space01.unity" />
+	</SCENES>
+	<!-- ProjSettings -->
+	<PROJSETTINGS>
+		<VARIABLE name="DEVELOPMENT_BUILD" value="false" target="Both" />
+		<VARIABLE name="ROOM_ID" value="TestRaph" target="Runtime" />
+	</PROJSETTINGS>
+</BUILDERPROFILE>
