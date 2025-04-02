@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5704196432299080860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5704196432299080858}
+  - component: {fileID: 5704196432299080861}
+  m_Layer: 0
+  m_Name: gamesettings_General_KDK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5704196432299080858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704196432299080860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5704196432299080861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704196432299080860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae74d0ed83fe35f41a0354ff83d98541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  languageCode: fr-FR
+  languageAudioCode: fr-FR
+  mixer: {fileID: 24100000, guid: ec12f7772c03e4c4c9e4c2f1643595ad, type: 2}
+  guardian_vo_male: {fileID: 72053915576199712, guid: 62b01bf231d86d94aa52d6892d07c9a9,
+    type: 3}
+  guardian_vo_female: {fileID: 4348223558050810296, guid: 17b42c6a93de47b40938454032a3dffb,
+    type: 3}
+  levelSettings: {fileID: 11400000, guid: 9f5edc0af97b3d249a4b533f84991d79, type: 2}
+  customPackSetting: {fileID: 11400000, guid: 98e49b1b760f0764aa38d84848ccac43, type: 2}
+  scoreValueTypeCoef:
+    m_internalArray:
+    - 1
+    - 50
+    - 50
+    - 1000
+    - 100
+    - 10
+    - 50
+    - 20
+    - 0
+    - 5
+    - 10
+    - 25
+    - 100
+    - 75
+    - 30
+    - 0
+    m_enumNames:
+    - Treasures
+    - Kills
+    - Deaths
+    - BoatKills
+    - Turrets
+    - Obstacles
+    - Mermaids
+    - Monsters
+    - Skulls
+    - Drone
+    - Mine
+    - SuperDrone
+    - MegaDroid
+    - PlasmaBomb
+    - Bomber
+    - Conveyor
+  delayToStopGameAfterButtonAppearance: 3
+  GameTimeScale: 1
+  CheatBoatBlue: 0
+  CheatBoatRed: 0
+  timerMaxDurationInCabin: 60
+  timerMaxDurationInLobby: 240
+  musicVolume: 0.33
+  voicesVolume: 1
+  sfxVolume: 0.66
