@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jet
+  m_Shader: {fileID: 4800000, guid: bd6af5d577c618947b73aa60db554e51, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnoutMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutOutA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 2800000, guid: 468df99a3e324be6bce256cb0f163ac1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 4b7ca52d18c0c6c42a0a56c284d45642, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flow:
+        m_Texture: {fileID: 2800000, guid: 10ccce3414a04764abfb630b5af0078e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LoopTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4b7ca52d18c0c6c42a0a56c284d45642, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 9733f0d7aec8848f08cae3c95b44d3ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 27a43f4838ed4d929120e6563a410b49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WipeEm:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WipeOp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _BurnOut: 0
+    - _BurnUVOffset: 0
+    - _CullMode: 0
+    - _Cut: 1
+    - _Cutoff: 0.5
+    - _Depthpower: 1
+    - _DetailNormalMapScale: 1
+    - _DiffusePower: 1
+    - _Distortion: 0.465
+    - _DstBlend: 10
+    - _Emission: 2.8
+    - _Float0: 0
+    - _FresnelExp: 0
+    - _FresnelMult: 0
+    - _FresnelPower: 2.17
+    - _FresnelScale: 0.729
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Mode: 2
+    - _NoiseDistortionPower: 0.2179676
+    - _NoiseDistortionTilling: 1.142912
+    - _NoiseOffset: 0
+    - _NoisePower: 1.098096
+    - _NoiseTilling: 0.894883
+    - _OcclusionStrength: 1
+    - _POW: 1
+    - _Parallax: 0.02
+    - _Scale: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularA: 0
+    - _SpecularAdd: 0
+    - _SpecularB: 1
+    - _SpecularHighlights: 1
+    - _SpecularMult: 0
+    - _SpecularRatio: 5.276861
+    - _SrcBlend: 5
+    - _UVSec: 0
+    - _Usecenterglow: 0
+    - _Usedepth: 0
+    - _ZWrite: 0
+    - __dirty: 0
+    m_Colors:
+    - _BurnColor: {r: 4, g: 0.7, b: 0.004, a: 1}
+    - _Color: {r: 0.9716981, g: 0.46545908, b: 0.05958529, a: 1}
+    - _DistortionSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortionSpeedXYPowerZ: {r: 0.52, g: 0.3, b: 0, a: 0.39}
+    - _EmissionColor: {r: 5.6603775, g: 2.5438008, b: 0.72089714, a: 1}
+    - _FresnelColor: {r: 4, g: 0.7, b: 0.004, a: 1}
+    - _MainSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseDistortionSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0.2, g: 0, b: 0, a: 0}
+    - _SpeedMainTexUVNoiseZW: {r: 0.2, g: 0, b: 0.31, a: 0.34}
+    - _TintColor: {r: 0.7075472, g: 0.33515495, b: 0.036712356, a: 0}
