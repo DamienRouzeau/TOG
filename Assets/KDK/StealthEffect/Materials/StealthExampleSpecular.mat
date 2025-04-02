@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StealthExampleSpecular
+  m_Shader: {fileID: 4800000, guid: b51a4178ada0a0b45b5052fd3f62df90, type: 3}
+  m_ShaderKeywords: _PATTERNTRIPLANARUV1_ON _TRIPLANARUV2_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientOclussion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern:
+        m_Texture: {fileID: 2800000, guid: 412acbe0f4267f94b8863355976babe3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 1
+    - _Cutoff: 0.5
+    - _EmissiveIntensity: 1
+    - _GlossIntensity: 0
+    - _MinVisibility: 0
+    - _NormalIntensity: 0
+    - _PBREmissiveIntensity: 0
+    - _PatternScale: 0.4
+    - _PatternSpeed: 0.14
+    - _PatternTriplanarUV1: 1
+    - _RefractionIntensity: 0
+    - _SpecularIntensity: 0
+    - _StartTopBottom: 0
+    - _Stealth: 1
+    - _StealthScale: 1
+    - _TriplanarUV2: 1
+    - _VisibleEffect: 0
+    - _VisibleEffectIntensity: 0
+    m_Colors:
+    - <noninit>: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PatternColor: {r: 0.11338555, g: 0.49056602, b: 0.19536006, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
