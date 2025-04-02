@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Shield_NRJJauge
+  m_Shader: {fileID: 4800000, guid: 881c73b45dda42d4ba29f8c7742329be, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _DISSOLVEGLOW_ON _MK_ALBEDO_MAP _MK_DETAIL_MAP
+    _MK_DISSOLVE_DEFAULT _MK_EMISSION_MAP _MK_LIGHTMODEL_LAMBERT _MK_LIGHTTYPE_CEL_SHADE_SIMPLE
+    _MK_MODE_TRANSPARENT _MK_RIM
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    IGNOREPROJECTOR: true
+    QUEUE: Transparent
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AnisoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Burnt_normals:
+        m_Texture: {fileID: 2800000, guid: e9742c575b8f4644fb9379e7347ff62e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 39a3f21e10520674aade0c78a7408b82, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirectionMap:
+        m_Texture: {fileID: 2800000, guid: 861c6d25c4ce1904eb9bb0112768cab9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 861c6d25c4ce1904eb9bb0112768cab9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeColorRamp:
+        m_Texture: {fileID: 2800000, guid: c8bf98b765b40024da46e7dec4b812b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 6e8a29cc9eeb8e7479aff55184e3a850, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 18514edaebb69cd4db29d83b0fba35af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SketchMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a268ab862991c4743a9281c69bb2c36a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 0
+    - _AlbedoMap: 0
+    - _AnisoOffset: -0.2
+    - _Blend0: 5
+    - _Blend1: 10
+    - _Brightness: 1.034
+    - _BumpScale: 1
+    - _Contrast: 0.894
+    - _CullMode: 0
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 1
+    - _DetailTint: 0.988
+    - _DissolveAmount: 0
+    - _DissolveDelay: 0
+    - _DissolveGlow: 1
+    - _DissolveGlowFollow: 0
+    - _DissolveGlowIntensity: 1
+    - _DissolveRampSize: 0.127
+    - _DissolveRampUp: 10
+    - _Distortion: 0
+    - _EdgeThickness: 1
+    - _EmissionScalar: 1
+    - _Falloff: 0.01
+    - _Faloff: 0.02
+    - _Float0: -0.01
+    - _Fres_Exp: 0
+    - _Gloss: 0
+    - _Glossiness: 0.5
+    - _Height: 1.55
+    - _LightCuts: 3
+    - _LightModel: 1
+    - _LightSmoothness: 0.956
+    - _LightThreshold: 0.663
+    - _LightType: 1
+    - _MKEditorShowDetailBehavior: 1
+    - _MKEditorShowDissolveBehavior: 1
+    - _MKEditorShowLightBehavior: 1
+    - _MKEditorShowMainBehavior: 1
+    - _MKEditorShowOutlineBehavior: 0
+    - _MKEditorShowReflectionBehavior: 1
+    - _MKEditorShowRenderBehavior: 1
+    - _MKEditorShowRimBehavior: 1
+    - _MKEditorShowShadowBehavior: 1
+    - _MKEditorShowSketchBehavior: 0
+    - _MKEditorShowSpecularBehavior: 0
+    - _MKEditorShowTranslucentBehavior: 0
+    - _Metallic: 0
+    - _Mode: 2
+    - _OcclusionStrength: 1
+    - _Opacity: 0.94
+    - _OutlineSize: 0.02
+    - _ReflectIntensity: 0.169
+    - _ReflectSmoothness: 0.156
+    - _RimIntensity: 0.371
+    - _RimSize: 0.781
+    - _RimSmoothness: 0.374
+    - _Roughness: 1
+    - _Saturation: 0.673
+    - _ShadowIntensity: 1.34
+    - _Shininess: 0.275
+    - _Size: 0.06
+    - _SketchScale: 16
+    - _SketchToneMax: 1
+    - _SketchToneMin: 0.5
+    - _SpecularIntensity: 0.5
+    - _Speed: 4.7
+    - _SurfaceFade: 0
+    - _TilingX: 1
+    - _TilingY: 1
+    - _TranslucentIntensity: 0.5
+    - _TranslucentShininess: 0.275
+    - _UseAnisotropicSpecular: 0
+    - _UseBumpMap: 0
+    - _UseDissolve: 1
+    - _UseEdgeColorRamp: 0
+    - _UseOutline: 0
+    - _UseReflection: 0
+    - _UseRim: 1
+    - _UseSketch: 0
+    - _UseTranslucent: 0
+    - _VolumeFade: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _metallic: 0
+    m_Colors:
+    - <noninit>: {r: 0, g: 1.4264235e-33, b: 0, a: 1.4264176e-33}
+    - _BaseColor: {r: 0.8602941, g: 0.025302794, b: 0.025302794, a: 1}
+    - _Bottom: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.37072685, g: 0.46226418, b: 0.06323426, a: 1}
+    - _Color0: {r: 0.983, g: 0.13467102, b: 0.13467102, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _DissolveGlowColor: {r: 0.074186325, g: 1, b: 0, a: 1}
+    - _EmissionColor: {r: 1.3757664, g: 5.5908804, b: 0, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _InnerEdgeColor: {r: 0.010946936, g: 0.7735849, b: 0.013937628, a: 1}
+    - _OuterEdgeColor: {r: 0.48609436, g: 1, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _RimColor: {r: 0.6745283, g: 1, b: 0.78593135, a: 1}
+    - _SColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SEmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0.042180557, g: 0.1981132, b: 0.01027946, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Top: {r: 0, g: 0, b: 0, a: 0}
+    - _TopColor: {r: 0.9459999, g: 0.098209865, b: 0.026487997, a: 1}
+    - _TranslucentColor: {r: 1, g: 1, b: 1, a: 0.5}
