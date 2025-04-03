@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7815449399322291548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7815449399322291551}
+  - component: {fileID: 7815449399322291550}
+  m_Layer: 0
+  m_Name: gamesettings_Boat_Poseidon_Kid2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7815449399322291551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7815449399322291548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7815449399322291550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7815449399322291548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ebc910102f2fa4891325e836e65483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boatvoicename: Voice_Overs_Captain
+  boat01objecttoremove: Pirate_Female
+  boat02objecttoremove: Pirate_Male
+  boat_start_life: 1200
+  boat_life_regeneration: 50
+  boat_life_sunken_regeneration: 100
+  pump_high_limit: 1.164
+  pump_low_limit: 0.69
+  pump_count_x_pl_1: 3
+  pump_count_x_pl_2: 3
+  pump_count_x_pl_3: 3
+  pump_count_x_pl_4: 3
+  pump_count_x_pl_5: 3
+  pump_count_x_pl_6: 3
+  pump_count_x_pl_7: 3
+  pump_count_x_pl_8: 3
+  jauge_high_limit: 0.922
+  jauge_low_limit: 0.234
+  boat_shield_time: 3
+  sinktreshold: 20
+  override_boat_speeds: 1
+  boat01_speed_start: 4.95
+  boat01_speed_min: 3.5
+  boat01_speed_max: 9.5
+  boat02_speed_start: 4.95
+  boat02_speed_min: 3.5
+  boat02_speed_max: 9.5
+  boat_speed_with_health:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.7
+      inSlope: 0.9234966
+      outSlope: 0.9234966
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.037002776
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  use_boat_speed_alteration: 1
+  boat_distance_threshold_min: 0.005
+  boat_distance_threshold_max: 0.27
+  boat_first_speed_coef: 0.97
+  boat_last_speed_coef: 1.05
+  boat_speed_modifier_duration: 10
+  boat_speed_modifier_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 24.022514
+      outSlope: 24.022514
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.108820304
+      value: 2.6141374
+      inSlope: 0.32750762
+      outSlope: 0.32750762
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.1118834
+    - serializedVersion: 3
+      time: 0.7578654
+      value: 1.9910321
+      inSlope: -3.3948708
+      outSlope: -2.9256423
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.08401647
+      outWeight: 0.3526563
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -8.222833
+      outSlope: -8.222833
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  is_boat_speed_modifier_additive: 1
+  ai_boat_fire_cannon_delay_min: 6
+  ai_boat_fire_cannon_delay_max: 10
+  ai_boat_fire_cannon_percent_max: 50
+  ai_boat_sinking_pump_delay_min: 1.25
+  ai_boat_sinking_pump_delay_max: 1.75
+  ai_boat_distance_limit_behind: 75
+  ai_boat_distance_limit_front: 15
+  ai_boat_distance_after_front_no_shoot: 30
+  ai_boat_spawn_gold_loosing_life: 200
+  boat_fire_cannon_reload_delay: 2
+  boat_fire_cannon_reload_distance: 3

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &660468963130228165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660468963130228171}
+  - component: {fileID: 660468963130228170}
+  m_Layer: 0
+  m_Name: gamesettings_Race_Poseidon_Endless
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660468963130228171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660468963130228165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &660468963130228170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660468963130228165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f509357324aa76439b59cfbab594663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathgamesize: 1
+  gameSessionTime: 840
+  chronoLimitTime: 840
+  chronoAlarmTime: 10
+  endGameBulletPrefab: {fileID: 184644971635116652, guid: 340404187b284084eac8570dc1590e8e,
+    type: 3}
+  startcountdownsize: 5
+  delayAfterLoadToOpenDoors: 6
+  delayAfterOpendDoorsToStartRace: 7
+  delayToShowButtonsAtEndRace: 27
+  healthJaugePrefab: {fileID: 8332376174843372598, guid: a656618d99159454c8f721a81143c8d5,
+    type: 3}
+  endRaceResultPrefab: {fileID: 367404196194937868, guid: fab97d4aadb76b44fa616b2690927ef9,
+    type: 3}
+  endRaceResultPrefabOneTeam: {fileID: 367404196194937868, guid: 0f46af60bef94b54a88076cd05864797,
+    type: 3}
+  pickupobject: {fileID: 8300000, guid: 9a3c961fcf34f5844abdc90fb730347f, type: 3}
+  attachobject: {fileID: 8300000, guid: db04002a7e67c2e43873e5271b246dc7, type: 3}
+  useCustomTotalGoldInRace: 1
+  customTotalGoldInRace: 37000
+  finishLineOnSpline: 0.758
+  drawingMinimap: {fileID: -2050607632046669178, guid: de4e4b01a2fc2554ca041d60b87e4bea,
+    type: 3}
+  respawnAllItemsAtTime: 320

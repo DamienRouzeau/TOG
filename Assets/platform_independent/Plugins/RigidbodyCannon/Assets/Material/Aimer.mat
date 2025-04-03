@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Aimer
+  m_Shader: {fileID: 4800000, guid: 881c73b45dda42d4ba29f8c7742329be, type: 3}
+  m_ShaderKeywords: _MK_ALBEDO_MAP _MK_DISSOLVE_DEFAULT _MK_EMISSION_MAP _MK_LIGHTMODEL_LAMBERT
+    _MK_LIGHTTYPE_CEL_SHADE_SIMPLE _MK_RIM _MOVEINWARDS_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    IGNOREPROJECTOR: False
+    QUEUE: Geometry
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: f2f94e3959fd75340b075eb622d5d1d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 0d2b7e55b7da0f24d8f4e94f1b674a08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InnerRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MKGlowTex:
+        m_Texture: {fileID: 2800000, guid: fb37b465cccf4a345aeb4b1c635b4117, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0d2b7e55b7da0f24d8f4e94f1b674a08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SketchMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _nTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _posTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoMap: 0
+    - _Alpha: 0.565
+    - _AmbientPower: 0.319
+    - _AnisoOffset: -0.2
+    - _Blend0: 1
+    - _Blend1: 0
+    - _BlendOp: 0
+    - _Brightness: 1.276
+    - _BumpAmt: 10
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Contrast: 1
+    - _Cull: 2
+    - _CullMode: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DetailTint: 0.5
+    - _DirectionPitch: 0
+    - _DirectionYaw: 0
+    - _DissolveAmount: 0
+    - _DissolveRampSize: 0.25
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DontMix: 0
+    - _DstBlend: 0
+    - _Emission: 1
+    - _EmissionEnabled: 0
+    - _EnableParticles: 0
+    - _Exponent: 1
+    - _FlipbookMode: 0
+    - _Fog: 0
+    - _Fresnel: 3
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Height1: 3.78
+    - _Height2: 10
+    - _Intensity: 1
+    - _IntensityHScale: 2.58
+    - _IntensityHShift: 2
+    - _IntensityV1: 6.65
+    - _IntensityV1Variance1: 1.78
+    - _IntensityV1Variance2: 3.12
+    - _LM: 0
+    - _LMPower: 0
+    - _LightCuts: 3
+    - _LightModel: 1
+    - _LightSmoothness: 0.439
+    - _LightThreshold: 0.323
+    - _LightType: 1
+    - _LightingEnabled: 0
+    - _MKEditorShowDetailBehavior: 0
+    - _MKEditorShowDissolveBehavior: 1
+    - _MKEditorShowLightBehavior: 1
+    - _MKEditorShowMainBehavior: 1
+    - _MKEditorShowOutlineBehavior: 0
+    - _MKEditorShowReflectionBehavior: 0
+    - _MKEditorShowRenderBehavior: 1
+    - _MKEditorShowRimBehavior: 1
+    - _MKEditorShowShadowBehavior: 0
+    - _MKEditorShowSketchBehavior: 0
+    - _MKEditorShowSpecularBehavior: 0
+    - _MKEditorShowTranslucentBehavior: 0
+    - _MKGlowPower: 6.1
+    - _MainTexturePower: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoveInwards: 1
+    - _OcclusionStrength: 1
+    - _OutlineSize: 0.02
+    - _Parallax: 0.02
+    - _ParticlesAmplitudeV: 5
+    - _ParticlesDelay: 5
+    - _ParticlesRadius: 8
+    - _ParticlesSpeed: 5
+    - _RealtimeShadow: 0
+    - _ReflectIntensity: 0.5
+    - _ReflectSmoothness: 0
+    - _RimIntensity: 0.736
+    - _RimSize: 1.77
+    - _RimSmoothness: 0.576
+    - _Roughness: 1
+    - _Saturation: 1.212
+    - _SecondaryColorAngle: 2
+    - _SecondaryColorImpact: 1.029
+    - _ShadowIntensity: 1
+    - _Shininess: 0.275
+    - _SketchScale: 16
+    - _SketchToneMax: 1
+    - _SketchToneMin: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.5
+    - _SpeedH1: 3.32
+    - _SpeedV1: 1.33
+    - _SrcBlend: 1
+    - _TranslucentIntensity: 0.5
+    - _TranslucentShininess: 0.275
+    - _UVSec: 0
+    - _UseAnisotropicSpecular: 0
+    - _UseBumpMap: 0
+    - _UseDissolve: 1
+    - _UseOutline: 0
+    - _UseReflection: 0
+    - _UseRim: 1
+    - _UseSketch: 0
+    - _UseTranslucent: 0
+    - _ZWrite: 1
+    - _boundingMax: 1
+    - _boundingMin: 1
+    - _marchDistance: 3
+    - _numOfFrames: 240
+    - _numSteps: 4
+    - _pack_normal: 0
+    - _speed: 0.33
+    m_Colors:
+    - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.61114633, b: 0.0141509175, a: 1}
+    - _Color1: {r: 0, g: 0.7, b: 0.74, a: 0}
+    - _Color2: {r: 0.97, g: 0.67, b: 0.51, a: 0}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_B: {r: 1, g: 0.5444662, b: 0.0141509175, a: 1}
+    - _Color_D: {r: 1, g: 0.5444662, b: 0.0141509175, a: 1}
+    - _Color_F: {r: 0.9951428, g: 1, b: 0, a: 1}
+    - _Color_L: {r: 1, g: 0.5444662, b: 0.0141509175, a: 1}
+    - _Color_R: {r: 0.5943396, g: 0.32614294, b: 0.014017441, a: 1}
+    - _Color_T: {r: 1, g: 0.5444662, b: 0.0141509175, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 0, g: 1, b: 0, a: 0}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _EmissionColor: {r: 6.8831816, g: 0.6486768, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LMColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MKGlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PrimaryColor: {r: 1, g: 0.9013662, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _RimColor: {r: 0.8301887, g: 0.51633793, b: 0.090067655, a: 1}
+    - _SecondaryColor: {r: 1, g: 0.055296138, b: 0, a: 0}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _TranslucentColor: {r: 1, g: 1, b: 1, a: 0.5}
