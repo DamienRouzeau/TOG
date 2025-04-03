@@ -1,0 +1,212 @@
+Optimizers Manual: Text version for translations
+
+
+---------------------------
+
+
+Page 0:
+
+1. quick guide
+2. components description
+3. advanced features
+4. optimization explanations
+5. custom enchancements
+
+Introduction:
+
+Optimizers is package with components which will give you possibility to change 
+quality settings of different components when they are far from camera, 
+when camera is not looking at them, or when objects are behind wall
+
+This system is using culling groups api and other smart ways to detect moments in 
+which settings should be changed to give you more fps!
+
+
+---------------------------
+
+
+Page 1:
+
+1 / 5 - QUICK GUIDE:
+
+TO USE OPTIMIZERS SIMPLY ADD COMPONENT TO YOUR GAME OBJECT. 
+AFTER THAT OPTIMIZER IS AUTOMATICALLY TRYING TO FIND COMPONENTS FOR OPTIMIZATION ATTACHED TO THIS OBJECT. 
+IF THERE IS NO COMPONENT TO OPTIMIZE IT IS TRYING TO FIND THEM IN CHILDREN.
+
+Basic optimizer is the most universal component to use on the objects.
+If you want optimize object when behind obstacles then use one with detection.
+With optimizers manager you can define some world rules helping correct optimizing.
+
+
+Inspector window for optimizer component is carefully designed to make you focus 
+on right modules step by step.
+ 
+At first there are parameters for detection, then selecting components to optimize
+and finally LOD/Quality Settings.
+
+Choose your optimization method, detection behaviour and configure to fit with your object.
+ 
+Define how many LOD (quality) levels you want to use.
+you can change LOD levels smoothly with transitions.
+ 
+Every time you change count of LOD levels there are automatically generated 
+quality settings for this count which you can freely modify.
+
+*L.O.D. is shortcut for Level Of Detail!
+
+By default optimizer is searching only for unity components but you can 
+put here custom monobehaviours by drag&drop to field inside ‘to optimize’ tab.
+
+
+---------------------------
+
+
+Page 2:
+
+2 / 5 - COMPONENTS DESCRIPTION:
+
+
+Optimizers Manager: This component is handling update of dynamic optimization, 
+adapting to game performance and smooth transitioning between LOD levels. 
+It’s recommended to use ‘persist through scenes’ so it will still exist when you will 
+change scenes during gameplay but it will be generated automatically anyway when needed and not existing yet.
+There are some parameters inside it you need configure to make it fit to your game world.
+
+
+Optimizer: Basic optimizer component with possibilities to cull object or change LOD quality settings in defined distance levels or
+hide when camera will look in different direction.
+This component have all optimizing methods avilable to use. 
+you can cull static and dynamic objects and define visibiltiy detection (when camera looking away) with one simple shape. 
+
+*Cull means turning off components/game object.
+*Hide means applying additional LOD level where you can set if you want to deactivate full object or just single components.
+
+Optimizer Complex Shape: Same like default optimizer but optimization methods 
+like ‘dynamic’ or ‘trigger based’ are not avaiable.
+(method ‘effective’ is anyway the best for dynamic objects)
+This component gives possibility to build detection shape from multiple 
+spheres for more detailed work. it features tools to easily create 
+sphere structure on meshes shape.
+
+
+Optimizer Obstacle Detection: Same like default optimizer but optimization method 
+like ‘static’ is not avaiable.
+This component gives possibility of hiding object when it is behind wall 
+(you can define if hidden object should be deactivated or still move etc.)
+It can bring big performance boost but use it visely. 
+Don’t use it on objects which puts only tiny pressure over game performance 
+because detection could take more cpu than object itself. 
+Define count and shape of detection rays to be most effective for your object.
+
+
+Terrain Optimizer: Component designed to support optimization of unity terrains. 
+It have unique gizmos visible on scene view to help you set it up to your project needs.
+It should be used only when your game is using multiple terrains.
+You can effectively switch quality settings of terrains when it’s 
+out of camera view or in certain distance from nearest point of it.
+Quality settings for different levels are generated automatically but you can freely modify them.
+
+
+---------------------------
+
+
+Page 3:
+
+3 / 5 - Using Optimizers:
+
+After adding optimizer to your object, you must configure it’s behaviour.
+First set max distance, if camera will be out of red sphere which is visible in gizmos, 
+object can be deactivated and not used anymore until camera steps again into distance range sphere.
+
+If you want to change quality settings when object is not visible in camera view,
+(very useful for particle system optimization) then use ‘cull if not see’ toggle.
+Now you have to define detection shape.
+If this shape will be visible in camera view, then object will use lods, if not - hidden* 
+
+*hidden means applying additional LOD level where you can set if you want to deactivate full object or just single components
+
+If single sphere can’t describe shape of your object enough, you can use optimizer complex 
+shape component to create shape from multiple spheres or do it automatically basing on certain mesh.
+(Upcoming feature) You can create dynamic shape using transform toggle, then only “effective” method will be avaiable. 
+You can use it for example on bones of skinned meshes.
+
+Change LOD levels count from 1 to 8, with count=1 there will be only active and culled state.
+(every time you change LOD levels automatic settings will be generated)
+ 
+Define transition time for smooth changing LOD levels.
+Click on LOD squares to view settings for certain distance level, 
+if you have enabled “cull if not see” or “hideable” you can access additional “hidden” slot.
+  
+You can define in which distance hidden settings should be applied when conditions are met.
+
+
+---------------------------
+
+
+Page 4:
+
+4 / 5 - Optimization Methods & LODs:
+
+Static: This method is using just Unity's Culling Groups API.
+You can hide object if  it is not visible in camera view and set up distance levels for LODs. 
+Game Object don’t need to be marked as static, object can move around but 
+shouldn’t leave detection shape (sphere)
+
+Dynamic: Can be used on objects which are moving in worlds space.
+Detection shape this time isn’t sphere but box.
+This optimization method can give the best performance but enabling 
+objects back when camera sees it again or when object enters new lod range 
+can be delayed which could be unwanted!
+
+Effective: Reccomended method to use universally with optimizers.
+It is using Unity's Culing Groups API and updates it with dynamic’s methods.
+It’s quick, can be used with dynamic objects and solves problem with delayed 
+switching of lod levels and hiding.
+
+Trigger Based (experimental): Different approach for optimization using just trigger colliders.
+Theoretically this method shouldn’t put any pressure over cpu with “cull if not see” untoggled.
+
+.................................
+
+When you are not using prefab, LOD settings will be stored in scene game object.
+When you create prefab, all LOD settings will be stored inside prefab asset file.
+
+You can save lod settings for certain component inside file and assign it to 
+other optimizer, then you are able to share same settings over whole project
+and modify all simultaneously.
+
+Use “Draw Shared Settings” toggle
+to see special presets options.
+
+---------------------------
+
+
+Page 5:
+
+5 / 5 - Advanced Features:
+
+If you are coder you can easily implement custom components support to optimizers system!
+Simply hit right mouse button somewhere in you project and:
+FImpossible Creations > Optimizers > Create Custom Component's LODs Parameters Script
+Name new file with your target component’s name.
+
+There will be generated code using name of your component as part of it 
+so you will have only few code-edit things to do.
+ 
+Inside script file there will be a lot of guide texts and 
+descriptions what and where you have to do.
+ 
+Define variables you want to change inside your lod settings,
+fill code with them to correctly implement all needed features.
+ 
+Now rename created file with class name inside file: ...sealed class CLASSNAME
+After that hit right mouse button again and select:
+FImpossible Creations > Custom Optimizers > YOURCOMPONENTNAME LOD
+
+It will create reference file which needs to be placed in directory:
+"Resources/Optimizers/Custom"
+(there can be multiple "Resources" directories inside project, you can create own folder path for custom lod types, like "Assets/Third Party/Resources/Optimizers/Custom")
+
+Then after detecting your component added to object optimizers 
+will use your custom class to serve it!
+

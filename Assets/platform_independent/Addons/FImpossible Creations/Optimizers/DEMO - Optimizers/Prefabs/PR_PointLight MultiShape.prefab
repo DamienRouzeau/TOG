@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1027943070401372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4998778715059484}
+  - component: {fileID: 114517767787720444}
+  - component: {fileID: 108536559033583162}
+  m_Layer: 0
+  m_Name: PR_PointLight MultiShape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4998778715059484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027943070401372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114517767787720444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027943070401372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5144b1414ea144f90eec6951c16d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ToOptimize:
+  - LODSet: {fileID: 114772056699637948}
+    sharedLODSet: {fileID: 0}
+    uniqueLODSet: {fileID: 114772056699637948}
+    optimizer: {fileID: 114517767787720444}
+    Component: {fileID: 108536559033583162}
+    RootReference: {fileID: 11400000, guid: 681fceab8afa93a47896fb20884daf9a, type: 2}
+    lockFirstLOD: 1
+    editorHeader: Light Properties
+    drawProperties: 1
+    UsingShared: 0
+    nullTry: 0
+  LODLevels: 3
+  preLODLevels: 3
+  MaxDistance: 434.78262
+  OptimizingMethod: 0
+  CullIfNotSee: 1
+  DetectionRadius: 19.32
+  DetectionBounds: {x: 38.322002, y: 38.322002, z: 38.322002}
+  Hideable: 1
+  DetectionOffset: {x: 0, y: 0, z: 0}
+  GizmosAlpha: 1
+  FadeDuration: 0
+  DrawSharedSettingsOptions: 0
+  DeactivateObject: 1
+  MinMaxDistance: {x: 0, y: 434.78262}
+  LODPercent:
+  - 0.102864735
+  - 0.38547343
+  - 1
+  AutoDistance: 0
+  DrawAutoDistanceToggle: 1
+  HiddenCullAt: -1
+  LimitLODLevels: 0
+  UnlockFirstLOD: 0
+  DrawGeneratedPrefabInfo: 0
+  DrawDeactivateToggle: 1
+  AddToContainer: 1
+  Editor_InIsolatedScene: 0
+  Editor_JustCreated: 1
+  OnlyCamCollLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  AutoPrecision: 0.25
+  AutoReferenceMesh: {fileID: 0}
+  DrawPositionHandles: 1
+  ScalingHandles: 1
+  Shapes:
+  - position: {x: -12.14, y: 0, z: 1.5973215}
+    radius: 0.45595104
+    transform: {fileID: 0}
+  - position: {x: 17.564726, y: -0.5776062, z: 2.2694736}
+    radius: 0.5951473
+    transform: {fileID: 0}
+  - position: {x: 0.4273491, y: -0.8056927, z: 0.049487114}
+    radius: 0.96
+    transform: {fileID: 0}
+  ShapePos: []
+  ShapeRadius: []
+--- !u!108 &108536559033583162
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027943070401372}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 1, g: 0.6967546, b: 0.1544118, a: 1}
+  m_Intensity: 1
+  m_Range: 21.29
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &114044025591822994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e86dbbccbcffa489bc669b98c4aca6, type: 3}
+  m_Name: Point[FLight]Nearest
+  m_EditorClassIdentifier: 
+  CustomEditor: 1
+  Disable: 0
+  DrawDisableOption: 1
+  SupportingTransitions: 1
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Light LOD Settings
+  ToCullDelay: 0
+  IntensityMul: 1
+  RangeMul: 1
+  ShadowsMode: 2
+  ShadowsStrength: 1
+  RenderMode: 1
+  ChangeIntensity: 1
+--- !u!114 &114523490150211456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e86dbbccbcffa489bc669b98c4aca6, type: 3}
+  m_Name: Point[FLight]Culled
+  m_EditorClassIdentifier: 
+  CustomEditor: 1
+  Disable: 1
+  DrawDisableOption: 1
+  SupportingTransitions: 1
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Light LOD Settings
+  ToCullDelay: 0
+  IntensityMul: 0
+  RangeMul: 0
+  ShadowsMode: 0
+  ShadowsStrength: 0
+  RenderMode: 2
+  ChangeIntensity: 1
+--- !u!114 &114739999075973400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e86dbbccbcffa489bc669b98c4aca6, type: 3}
+  m_Name: Point[FLight]Hidden
+  m_EditorClassIdentifier: 
+  CustomEditor: 1
+  Disable: 1
+  DrawDisableOption: 1
+  SupportingTransitions: 1
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Light LOD Settings
+  ToCullDelay: 0
+  IntensityMul: 0.4
+  RangeMul: 0.5
+  ShadowsMode: 0
+  ShadowsStrength: 0
+  RenderMode: 2
+  ChangeIntensity: 1
+--- !u!114 &114753284127195176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e86dbbccbcffa489bc669b98c4aca6, type: 3}
+  m_Name: Point[FLight]LOD2
+  m_EditorClassIdentifier: 
+  CustomEditor: 1
+  Disable: 0
+  DrawDisableOption: 1
+  SupportingTransitions: 1
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Light LOD Settings
+  ToCullDelay: 0
+  IntensityMul: 0.4
+  RangeMul: 0.5
+  ShadowsMode: 0
+  ShadowsStrength: 0
+  RenderMode: 2
+  ChangeIntensity: 1
+--- !u!114 &114769319506384408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e86dbbccbcffa489bc669b98c4aca6, type: 3}
+  m_Name: Point[FLight]LOD1
+  m_EditorClassIdentifier: 
+  CustomEditor: 1
+  Disable: 0
+  DrawDisableOption: 1
+  SupportingTransitions: 1
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Light LOD Settings
+  ToCullDelay: 0
+  IntensityMul: 1
+  RangeMul: 1
+  ShadowsMode: 1
+  ShadowsStrength: 1
+  RenderMode: 0
+  ChangeIntensity: 1
+--- !u!114 &114772056699637948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-PR_PointLight MultiShape
+  m_EditorClassIdentifier: 
+  LevelOfDetailSets:
+  - {fileID: 114044025591822994}
+  - {fileID: 114769319506384408}
+  - {fileID: 114753284127195176}
+  - {fileID: 114523490150211456}
+  - {fileID: 114739999075973400}

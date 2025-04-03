@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LS_MeshRenderer-Demo_Light (3 LODs)
+  m_EditorClassIdentifier: 
+  LevelOfDetailSets:
+  - {fileID: 114858722563504954}
+  - {fileID: 114499487089499882}
+  - {fileID: 114069101683467400}
+  - {fileID: 114625573696810424}
+  - {fileID: 114768071051458466}
+--- !u!114 &114069101683467400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Demo_[FRende]LOD2 Copy
+  m_EditorClassIdentifier: 
+  CustomEditor: 0
+  Disable: 0
+  DrawDisableOption: 1
+  SupportingTransitions: 0
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Renderer LOD Settings
+  ToCullDelay: 0
+  UseShadows: 0
+  MotionVectors: 2
+  SkinnedQuality: 1
+  skinned: 0
+--- !u!114 &114499487089499882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Demo_[FRende]LOD1 Copy
+  m_EditorClassIdentifier: 
+  CustomEditor: 0
+  Disable: 0
+  DrawDisableOption: 1
+  SupportingTransitions: 0
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Renderer LOD Settings
+  ToCullDelay: 0
+  UseShadows: 0
+  MotionVectors: 0
+  SkinnedQuality: 2
+  skinned: 0
+--- !u!114 &114625573696810424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Demo_[FRende]Culled Copy
+  m_EditorClassIdentifier: 
+  CustomEditor: 0
+  Disable: 1
+  DrawDisableOption: 1
+  SupportingTransitions: 0
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Renderer LOD Settings
+  ToCullDelay: 0
+  UseShadows: 0
+  MotionVectors: 2
+  SkinnedQuality: 1
+  skinned: 0
+--- !u!114 &114768071051458466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Demo_[FRende]Hidden Copy
+  m_EditorClassIdentifier: 
+  CustomEditor: 0
+  Disable: 1
+  DrawDisableOption: 1
+  SupportingTransitions: 0
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Renderer LOD Settings
+  ToCullDelay: 0
+  UseShadows: 0
+  MotionVectors: 2
+  SkinnedQuality: 1
+  skinned: 0
+--- !u!114 &114858722563504954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Demo_[FRende]Nearest Copy
+  m_EditorClassIdentifier: 
+  CustomEditor: 0
+  Disable: 0
+  DrawDisableOption: 1
+  SupportingTransitions: 0
+  DrawLowererSlider: 0
+  QualityLowerer: 1
+  HeaderText: Renderer LOD Settings
+  ToCullDelay: 0
+  UseShadows: 1
+  MotionVectors: 1
+  SkinnedQuality: 0
+  skinned: 0
