@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AnimatedFire 1
+  m_Shader: {fileID: 4800000, guid: 8b05d49618da25843a494fa0753b4fab, type: 3}
+  m_ShaderKeywords: _EMISSION _ENABLEPARTICLES_ON _UVFREE_BUMPED _UVFREE_LOCAL _UVFREE_VERTEX_COLOR
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - BurntTileNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Masks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Normals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 7130c16fd8005b546b111d341310a9a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8e4f5f1bc545d4342b58fc9decfc37af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 1ffd23e14dafe29479aaa8de47446944, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1ffd23e14dafe29479aaa8de47446944, type: 3}
+        m_Scale: {x: 0.77, y: -0.67}
+        m_Offset: {x: -0.1, y: -0.16}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 36be8d528a4fa024faa4680d7658642c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: a64172ea50137d443863ed2bfd4516cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NM:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 11f03d9db1a617e40b7ece71f0a84f6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 6618005f6bafebf40b3d09f498401fba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TEX:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TileableFire:
+        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _char_woodman_diffuse:
+        m_Texture: {fileID: 2800000, guid: c8bc56859dafc87409be99c845bc88ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _char_woodman_mask:
+        m_Texture: {fileID: 2800000, guid: 8a08dfa18aa7c634d8bc8244a44af07a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _char_woodman_metallic:
+        m_Texture: {fileID: 2800000, guid: 2be69b1584d71e048a393fff2ef0a80d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _char_woodman_normals:
+        m_Texture: {fileID: 2800000, guid: a7f8fa31ac86a464abab580237a354c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BaseEmber: 0
+    - GlowBaseFrequency: 1.1
+    - GlowColorIntensity: 0
+    - GlowEmissionMultiplier: 1
+    - GlowOverride: 1
+    - _AlbedoMix: 0.5
+    - _Alpha: 0.8
+    - _BumpScale: 1
+    - _BurnOffset: 1
+    - _BurnTilling: 1
+    - _CharcoalMix: 1
+    - _CharcoalNormalTile: 5
+    - _CrossTime: 0.3
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dist: 0.03
+    - _DistortX: 0.585
+    - _DistortY: 0.069
+    - _DstBlend: 0
+    - _EdgeSmooth: 0.05
+    - _Emission: 0
+    - _EmissionMultiplier: 0
+    - _EmissionScaleUI: 0
+    - _EnableParticles: 1
+    - _FireIntensity: 1.554
+    - _Float0: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.03
+    - _GlossyReflections: 1
+    - _Height1: 3
+    - _Height2: 10
+    - _IntensityHScale: 1
+    - _IntensityHShift: 1
+    - _IntensityV1: 1
+    - _IntensityV1Variance1: 1
+    - _IntensityV1Variance2: 1
+    - _Metallic: 1
+    - _Mode: 0
+    - _MoveInwards: 0
+    - _NM_speedX: 1
+    - _NM_speedY: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ParticlesAmplitudeV: 5
+    - _ParticlesDelay: 5
+    - _ParticlesRadius: 8
+    - _ParticlesSpeed: 5
+    - _RimMultiplier: 0
+    - _RimPower: 5
+    - _SecondaryColorAngle: 1
+    - _SecondaryColorImpact: 1
+    - _Shininess: 0.03
+    - _Smoothness: -0.48
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.44
+    - _SpeedH1: 1
+    - _SpeedV1: 1
+    - _SrcBlend: 1
+    - _TEX1_speedX: 0.3
+    - _TEX1_speedY: 0.3
+    - _TexPower: 20
+    - _TriplanarSpace: 0
+    - _UVFreeBumped: 1
+    - _UVFreeLocal: 1
+    - _UVFreeRim: 0
+    - _UVFreeVertexColor: 0
+    - _UVSec: 0
+    - _UsingSpecGlossMap: 0
+    - _VertexColorStrength: 0.51
+    - _ZWrite: 1
+    - __dirty: 0
+    - _amount: 2
+    m_Colors:
+    - EmberColorTint: {r: 0.9926471, g: 0.6777384, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 5.443388, g: 0.7810697, b: 0.28243998, a: 1}
+    - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
+    - _PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _TileSpeed: {r: -1, g: 0, b: 0, a: 0}
+    - _colFoam: {r: 1, g: 1, b: 1, a: 1}
