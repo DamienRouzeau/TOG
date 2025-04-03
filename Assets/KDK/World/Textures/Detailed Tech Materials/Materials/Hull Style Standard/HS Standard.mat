@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HS Standard
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _DISSOLVEGLOW_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    _SOBEL_ON _SPECGLOSSMAP _STARTTOPBOTTOM_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ActivationTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientOclussion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseNormal:
+        m_Texture: {fileID: 2800000, guid: bd734c29baceb63499732f24fbaea45f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: 7130c16fd8005b546b111d341310a9a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 71c1a8c3c149cc948b27d2df599ddb1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 03d54d36de4258445a6dc49cfeb1b6fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirectionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplaceNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeColorRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: a61900845b1ed1a4fb80bd7da5c10ab1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FalloffTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GridTexture:
+        m_Texture: {fileID: 2800000, guid: ac975eace072453bba4ef614a74de284, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrungeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fcbf9361b61a82d4cab845ac354266a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: fb7107bd8659cdf4885d8b6bf86e7903, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: bf5c601178965ef4b8fdd4f82773cec4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicRoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 87e452abab7787c40b43f949c8ca33dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 1947260824c59fc4089606ab83366439, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: b548abe007723dd4d98722293b6f52f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: bf5c601178965ef4b8fdd4f82773cec4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PatternTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmokeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: ae3eabb355897334fb344b3a18c4fbb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sway:
+        m_Texture: {fileID: 2800000, guid: 212c524f263b0824e97de9f602cca206, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Transluency:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVTexture:
+        m_Texture: {fileID: 2800000, guid: d611d6f49dd07344aa1277ada0f6bf6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ANIMATION: 0
+    - _ActivationRim: 0
+    - _ActivationTime: 1
+    - _AlphaCutout: 0.93
+    - _AmbientOcclusion: 1
+    - _AnimatedMelt: 0
+    - _BlendDstMode: 1
+    - _BlendSrcMode: 5
+    - _Blending: 2
+    - _BumpScale: 1.75
+    - _ColorMask: 15
+    - _ColorRimMax: 1
+    - _ColorRimMin: 0.6
+    - _Contrast: 0.5
+    - _Cutoff: -0.25
+    - _DepthDistance: 0
+    - _DepthFadeExp: 5.316663
+    - _DetailNormalMapScale: 1
+    - _DifferenceThreshold: 0.0298
+    - _DirectionVisibility: 0
+    - _DirtAmount: 0
+    - _DirtDecals: 1
+    - _DirtGeometry: 1
+    - _DirtHardness: 10
+    - _DirtMetallic: 0
+    - _DirtRoughness: 1
+    - _DissolveAmount: 0.572
+    - _DissolveDelay: 0
+    - _DissolveGlow: 1
+    - _DissolveGlowFollow: 0
+    - _DissolveGlowIntensity: 0.5
+    - _DissolveRampUp: 1
+    - _Distortion: 0.5
+    - _DistortionFactor: 0.2
+    - _DistortionSpeed: 0.5
+    - _Distribution: 1
+    - _DstBlend: 0
+    - _EdgePower: 0.18
+    - _EdgeThickness: 0.1
+    - _EmissionPower: 1
+    - _EmissiveIntensity: 1
+    - _Fade: 1.741
+    - _Falloff: 0.02
+    - _FogEmissionFalloff: 0.5
+    - _FogEmissionPower: 20
+    - _FogFalloff: 1
+    - _FogMax: 0
+    - _FogMin: -20
+    - _FogRelativeWorldOrLocal: 1
+    - _FogWaveAmplitudeX: 0.3
+    - _FogWaveAmplitudeZ: 0.3
+    - _FogWaveFreqX: 0.5
+    - _FogWaveFreqZ: 0.5
+    - _FogWaveSpeedX: 2
+    - _FogWaveSpeedZ: 2
+    - _GlossIntensity: 0.369
+    - _GlossMapScale: 0.561
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _GridOffsetX: 0
+    - _GridOffsetY: 0
+    - _GridSize: 500
+    - _GridTexturePow: 0
+    - _GridTilling: 0.2
+    - _Grunge1Tiling: 10
+    - _Grunge2Tiling: 6
+    - _GrungeIntensity: 0.2907866
+    - _GrungeMaskTiling: 4
+    - _GrungeToDirt: 0
+    - _Height: 1.86
+    - _HeightFogEnd: 0
+    - _HeightFogStart: 0
+    - _Intensity: 0.8
+    - _Invert: 0
+    - _Limit: 0
+    - _ManualControl: 1.96
+    - _MaskClipValue: 0.5
+    - _MetChannel: 3
+    - _Metallic: 1
+    - _MetallicIntensity: 0
+    - _MinVisibility: 0.343
+    - _Mode: 0
+    - _NoiseDistortionTilling: 0.1793017
+    - _NoiseMultiply: 0
+    - _NoisePower: 0.9750929
+    - _NoiseScale: 0
+    - _NoiseTilling: 0.5832521
+    - _NormalAmount: 2
+    - _NormalIntensity: 3.76
+    - _NormalWearAmount: 0
+    - _OVERRIDE_FOG_COLOR: 0
+    - _OcclusionStrength: 0.86
+    - _Opacity: 0.76
+    - _OpacityPower: 0
+    - _Oscillation: 0
+    - _OverlapRim: 0.1
+    - _PBREmissiveIntensity: 1
+    - _Parallax: 0.0162
+    - _PatternPower: 1
+    - _PatternRimMax: 1
+    - _PatternRimMin: 0.6
+    - _PatternScale: 1
+    - _PatternSpeed: 0.1
+    - _PatternTriplanarUV1: 0
+    - _Power: 10
+    - _Preview: 0
+    - _RefractionIntensity: 1
+    - _Rotate: 0
+    - _Roughness: 0.5
+    - _RoughnessIntensity: 0.5472615
+    - _STANDARD_FOG: 0
+    - _ScanDistance: 25
+    - _ScanWidth: 0
+    - _Scroll: 0
+    - _Size: 0.1
+    - _SmokeTexturePower: 0
+    - _Smoothness: 0
+    - _SmoothnessFactor: 0
+    - _SmoothnessTextureChannel: 0
+    - _Sobel: 1
+    - _SobelTiling: 0
+    - _SpecChannel: 3
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.322
+    - _SpecularPower: 0.4
+    - _Speed: 0.1
+    - _SrcBlend: 1
+    - _StartPoint: 0.06
+    - _StartTopBottom: 1
+    - _Stealth: 0.685
+    - _StealthScale: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilMask: 255
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TexturePower: 1
+    - _TextureRimMax: 1
+    - _TextureRimMin: 0.6
+    - _TextureScale: 1
+    - _TextureScrollX: 0
+    - _TextureScrollY: 0
+    - _Tile: 40
+    - _TilingX: 1
+    - _TilingY: 1
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _TriplanarUV2: 0
+    - _UVSec: 0
+    - _UnderwaterInfluence: 0
+    - _UseEdgeColorRamp: 0
+    - _UseMetallicMap: 0
+    - _UseUIAlphaClip: 0
+    - _VertexColorDirt: 0
+    - _VertexColorWear: 0
+    - _VisibleEffect: 0
+    - _VisibleEffectIntensity: 1
+    - _WaveAmplitudeA: 0
+    - _WaveAmplitudeB: 0
+    - _WaveWidthA: 2.5
+    - _WaveWidthB: 2.5
+    - _WearAmount: 10
+    - _WearDecals: 1
+    - _WearGeometry: 1
+    - _WearGrungeTiling: 13.17647
+    - _WearHardness: 1
+    - _WearMetallic: 1
+    - _WearRoughness: 0
+    - _Windstrength: 0.1
+    - _YDisplacementA: 0
+    - _YDisplacementB: 5
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.05136246, g: 0.1295507, b: 0.2794118, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0, b: 0, a: 0}
+    - _Color2: {r: 1, g: 1, b: 0, a: 0}
+    - _ColorWaveA: {r: 0.4485294, g: 0.313166, b: 0.1517085, a: 1}
+    - _ColorWaveB: {r: 1, g: 0.376056, b: 0.05882353, a: 1}
+    - _ColortoBeFiltered: {r: 0.4039216, g: 0, b: 1, a: 1}
+    - _CrossColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DirtColor: {r: 0.1397059, g: 0.134265, b: 0.1273789, a: 0}
+    - _DissolveGlowColor: {r: 1, g: 0.5, b: 0, a: 1}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FogColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FogEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GridColor: {r: 0, g: 0, b: 0, a: 0}
+    - _HeightFogColor: {r: 0, g: 0, b: 0, a: 0}
+    - _InnerColor: {r: 0, g: 0, b: 0, a: 0}
+    - _InnerEdgeColor: {r: 1, g: 1, b: 0, a: 1}
+    - _NoiseDistortionSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _OuterEdgeColor: {r: 1, g: 0, b: 0, a: 1}
+    - _PatternColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PlaneNormal: {r: 0.31, g: 0.34, b: 0.14, a: 0}
+    - _PlanePosition: {r: 0.86, g: 0.26, b: 0, a: 0}
+    - _ShieldDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _SmokeSpeed1: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _SmokeSpeed2: {r: -0.2, g: 0.2, b: 0, a: 0}
+    - _SobelColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Speed: {r: 0, g: 0, b: 0.75, a: 0.55}
+    - _TextureColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.5294118, g: 0.4264289, b: 0, a: 0}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TrailColor: {r: 0, g: 0, b: 0, a: 0}
+    - _WearColor: {r: 0, g: 0, b: 0, a: 0}
+    - _WorldPosition: {r: 0.74, g: 0.27, b: 0.21, a: 0.45}
