@@ -1,0 +1,1 @@
+All Audio in this folder was found on https://opengameart.org and is protected under CC0
