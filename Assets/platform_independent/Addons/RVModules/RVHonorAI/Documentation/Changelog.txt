@@ -1,0 +1,47 @@
+27.01.2021
+0.8 beta
+Fixes:
+-fixed agents waypoints being shared between agents 
+
+04.02.2020
+0.9 beta
+Features:
+-Autom animation assigner tool - assign animations automatically based on keywords and animation clip names
+-Clips renamer tool - rename animation clips to match their fbx file name - super useful for mixamo animations
+-Animation importer tool - copy animations between animation presets and Characters, all combinations allowed - preset-preset, Character-Character,  Character-preset and vice-versa
+-Selectable AiComponents prefab in Character creation wizard
+-Guided missile type projectile
+-Particles handling for ShootingWeapon
+-Added AimTransform to Character 
+-Box-shaped spawn option in CharacterSpawner
+-Scalable load balancing option for AI graphs - throttle AI updates frequency slowing down AI updates instead of bogging cpu with more characters
+-Performance info showing useful information regarding performance like how many AI updates per frame you can expect with certain number of characters      
+-Added some statistics in HonorAIManager
+-Event callbacks for objects and target detection: OnNewTargetDetected, OnTargetNotSeenAnymore, OnTargetVisibleAgain, OnTargetForget, OnNewObjectDetected, OnObjectNotDetectedAnymore
+
+Improvements:
+-Exposed AnimationEventBasedAttack as graph variable and added to Character inspector
+-Animations import undo handling
+-Animator controller logic improvements
+-Character movement speed takes into account its scale when using root motion
+-Updated all AI graphs
+-Improved distance and melee fighting logic
+-Ragdoll scale automatically set to match Characters scale on creation  
+-Automatic pool creation for all poolable objects(effects, projectiles etc), no need to add them manually to PoolManager anymore
+-Updated RVCommonGameLibrary
+-Separated scanning tasks to other graph - this allow for separate control of update frequency of AI logic and expensive targets scanning 
+-Exposed 'velocityDeltaSpeed' in CharacterAnimation component - allows for control over how fast are character movement animation transitions
+-Decoupled Character component from CharacterAi component
+ 
+Changes:
+-HonorAiManager prefab: no more AudioManager and PoolManager
+-Removed 'no weapon' stats, Character has to have weapon to be able to attack
+-Changed Weapon component name to Attack and ShootingWeapon to ShootingAttack
+
+Fixes:
+-Import/export animations creates new copies of ClipConfigs instead of referencing same objects
+-Disable LookAt component when AI not enabled
+-Waypoint position fields in inspector have now flexible width
+-Turning off animation events when Character is killed to avoid "AnimationEvent 'EventName' has no receiver" errors
+
+
